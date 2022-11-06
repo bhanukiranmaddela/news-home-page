@@ -1,0 +1,149 @@
+.body {
+  color: hsl(35, 77%, 62%);
+  height: 100%;
+  margin: 1% 6% 6% 6%;
+  list-style-type: none;
+}
+.symbol {
+  color: black;
+  font-weight: bold;
+  font-size: 50px;
+  align-self: flex-start;
+  align-self: center;
+}
+ul {
+  list-style-type: none;
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  margin: 0px 10px 0px 10px;
+  align-items: center;
+  align-self: center;
+  color: hsl(236, 13%, 42%);
+  font-weight: bold;
+}
+
+li:hover {
+  color: hsl(35, 77%, 62%);
+  scale: 1.2;
+  cursor: pointer;
+}
+
+.navBar {
+  height: 10vh;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+img {
+  width: 95%;
+  padding-left: 10px;
+  height: 300px;
+}
+.new {
+  width: 38%;
+  background-color: black;
+  padding: 15px 15px 35px 15px;
+  height: 100%;
+}
+.img-new {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading {
+  color: hsl(35, 77%, 62%);
+  font-weight: 20px;
+  font-weight: bold;
+}
+h3 {
+  color: hsl(36, 100%, 99%);
+  font-weight: bold;
+}
+
+h3:hover {
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
+}
+
+p {
+  color: hsl(236, 13%, 42%);
+  font-weight: 700;
+}
+hr {
+  width: 100%;
+  text-align: center;
+  border: solid 1px;
+}
+.below-img {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 15px;
+  width: 95%;
+  height: 200px;
+}
+.btn-and-info {
+  align-self: center;
+}
+.web {
+  color: black;
+  font-weight: bold;
+  align-self: center;
+  font-size: 50px;
+  padding-left: 30px;
+}
+.info {
+  padding-bottom: 20px;
+}
+.read-more {
+  padding-top: 20px;
+  font-size: 25px;
+  background-color: hsl(35, 77%, 62%);
+  color: white;
+  padding: 10px;
+  display: inline;
+  text-align: center;
+  font-weight: bold;
+  align-self: flex-end;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+
+.cards {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 20vh;
+}
+.title {
+  color: black;
+}
+
+.title:hover {
+  color: hsl(5, 85%, 63%);
+  cursor: pointer;
+}
+.text {
+  padding-left: 15px;
+  width: 50%;
+}
+.rank {
+  color: hsl(236, 13%, 42%);
+  font-weight: bold;
+  font-size: 30px;
+}
+.card-img {
+  height: 20vh;
+  width: 150px;
+}
